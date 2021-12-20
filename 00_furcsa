@@ -1,0 +1,25 @@
+for j in range (1,101):
+    if j % 3 :
+        print("Wizz")
+    else:
+        print(j)
+
+
+        j = 1
+        while j <= 100 :
+            if j % 10 == 0:
+                print("fizzbuzz")
+                j += 1
+            if j % 2 == 0:
+                print("fizz")
+                j += 1
+            if j % 5 == 0:
+                print("buzz")
+                j += 1
+            else:
+                print(j)
+                j +=1
+
+
+
+for j in range(1,100):
